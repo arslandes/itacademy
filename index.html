@@ -1,1 +1,61 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>My market!</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="script.js"></script>
+</head>
+<body>
+	<h1>Welcome to my market!</h1>
+	<div>
+	<table>
+		<tr>
+			<th class="emoji">Photo</th>
+			<th>Name</th>
+			<th>Quantity in kg</th>
+			<th>Unit price for kg</th>
+		</tr>
+		<tr>
+			<td class="emoji">🍌</td>
+			<td>Bananas</td>
+			<td><input id="bananaskg" type="number" name="quantutykg" value="0"></td>
+			<td><input id="bananasprice" value="100" type="number" name="unitprice"></td>
+		</tr>
+		<tr>
+			<td class="emoji">🍎</td>
+			<td>Apples</td>
+			<td><input id="appleskg" type="number" name="quantutykg" value="0"></td>
+			<td><input id="applesprice" value="40" type="number" name="unitprice"></td>
+		</tr>
+		<tr>
+			<td class="emoji">🍑</td>
+			<td>Peaches</td>
+			<td><input id="peachkg" type="number" name="quantutykg" value="0"></td>
+			<td><input id="peachesprice"value="80" type="number" name="unitprice"></td>
+		<tr>
+			<td class="emoji">🍉</td>
+			<td>Watermelon</td>
+			<td><input id="watermelonkg" type="number" name="quantutykg" value="0"></td>
+			<td><input id="watermelonprice" value="50" type="number" name="unitprice"></td>
+		<tr>
+			<td class="emoji">🍈</td>
+			<td>Melon</td>
+			<td><input id="melonkg" type="number" name="quantutykg" value="0"></td>
+			<td><input id="melonprice" value="70" type="number" name="unitprice"></td>
+		</tr>
+		<tr>
+			<td class="emoji">🍇</td>
+			<td>Grapes</td>
+			<td><input id="grapeskg" type="number" name="quantutykg" value="0"></td>
+			<td><input id="grapesprice" value="90" type="number" name="unitprice"></td>
+		</tr>
+	</table>
+	</div>
+		<p><input onclick="(market())" type="submit" name="calc" value="Calculate"></p>
+	<div id="centerdiv">
+	<span class="inline">Total:</span><span id="total">0</span>
+</div>
+</body>
+</html>
